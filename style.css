@@ -7,7 +7,7 @@
 
 .nav{
       height:  50px;
-      background-color: #292727;
+      background-color: #1b1a1a;
       color: #ffffff;
       display: flex;
       justify-content: space-between;
@@ -18,10 +18,16 @@
       font-weight: lighter;
 
 }
+.nav__title{
+      font-size: 18px;
+      font-weight:400;
+      color: rgb(153, 145, 145);
+      padding-left: 24px;
+}
 
 .sign__in{
       padding: 10px 10px;
-      background-color: rgb(56, 180, 56);
+      background-color: rgb(94, 197, 94);
       color: rgb(255, 249, 249);
       border-radius: 5px;
 }
@@ -35,12 +41,12 @@
 .details__button{
       background-color: rgb(51, 157, 199) ;
       color: white;
-      padding: 10px 10px 10px 10px;
+      padding: 12px;
+      font-size: 16px;
       margin: 10px  0px 10px 33px;
       border-radius: 5px;
 
 }
-
 
 .header__title{
       font-family: sans-serif;
@@ -57,21 +63,21 @@
 }
 .main{
       width: 100%;
-      height:  780px;
+      height:  920px;
       padding: 20px 40px;
       display: flex;
 }
 
 .left{
-      width: 75%;
-      border: 2px solid red;
+      width: 73%;
 }
 
 .right{
       background-color: rgba(240, 240, 240, 0.596);
       border-radius: 5px;
-      width: 25%;
-      border: 2px solid blue;
+      width: 27%;
+      padding: 20px 0px 10px 10px;
+     
 }
 
 .js__config{
@@ -88,11 +94,13 @@
 #personal_training,#recent_video,#recent_talks{
       margin:  10px 20px;
       padding: 5px;
-      border: 2px solid gray;
+      
 }
 ul{
-      padding-top: 5px;
-      padding-left: 40px;
+      font-family: sans-serif;
+      font-size: 14px;
+      color: #25b5ce;
+      padding: 5px 0px 10px 40px;
 }
 
 .card__title{
@@ -109,10 +117,38 @@ ul{
 .card__button{
       background-color: rgb(255, 255, 255) ;
       color: rgb(24, 23, 23);
-      font-size: 15px;
+      font-size: 14px;
       padding: 7px;
       margin: 5px  0px 10px 10px;
       border-radius: 5px;
       border-color: rgb(214, 214, 214);
 
+}
+
+.footer h5{
+      font-size: 14px;
+      font-weight: 200;
+     display: flex;
+     justify-content: center;
+     padding: 5px;
+     margin: 10px 0px 10px 0px;
+}
+
+h4{
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: sans-serif;
+      color: #201f1f;
+      margin: 5px 0px 10px 0px;
+      
+}
+
+a{
+      text-decoration: none;
+      color: rgb(38, 148, 199);
+}
+
+.side__text{
+      font-size: 15px;
 }
